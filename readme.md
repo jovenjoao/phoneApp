@@ -29,7 +29,7 @@
 		db.phone.save ({_id:"ref_3",images:["hola3.jpg"],name:"Iphone 6", description:"mola muchísimo max" , price : 800.12})
 
 
-###EXECUTE
+### EXECUTE
 	
 	curl localhost:8081/phone -> get all phones
 	curl localhost:8081/phone/ref_3 -> get a phone
